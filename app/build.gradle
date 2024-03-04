@@ -5,14 +5,12 @@ plugins {
 android {
     namespace 'com.sabithpkcmnr.edgetoedge'
     compileSdk 34
-
     defaultConfig {
         applicationId "com.sabithpkcmnr.edgetoedge"
         minSdk 26
         targetSdk 34
         versionCode 1
-        versionName "1.0"
-
+        versionName "1.0.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -29,7 +27,6 @@ android {
 }
 
 dependencies {
-
     implementation libs.appcompat
     implementation libs.material
     implementation libs.activity
