@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ThemeHome" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <style name="ThemeFull" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/colorA</item>
+    </style>
+
+    <style name="ThemeFixed" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorB</item>
+        <item name="colorPrimaryDark">@color/colorB</item>
+        <!--<item name="android:statusBarColor">@color/colorB</item>-->
+        <item name="android:statusBarColor">@color/colorB</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightNavigationBar">true</item>
+
+    </style>
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/itemMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ActivityHome">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:paddingBottom="50dp"
+        android:text="This app demonstrate how to bring immersive experience to your app by displaying the app content below the status and navigation bars thereby achieving more real estate on the screen.\n\nApp layout will go hand-in-hand with device ui elements such as navigation bar and 3 buttons"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/itemBtFull"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Full Page"
+            app:backgroundTint="@color/colorA" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/itemBtFixed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Fixed Page"
+            app:backgroundTint="@color/colorB" />
+
+    </LinearLayout>
+
+</LinearLayout>
